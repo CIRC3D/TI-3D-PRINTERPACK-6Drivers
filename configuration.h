@@ -33,7 +33,7 @@ const int max_adc_val = 4095;
 //For Mix G1
 float x_steps_per_unit = 80;
 float y_steps_per_unit = 80;
-float z_steps_per_unit = 2560;
+float z_steps_per_unit = 4016;
 float e_steps_per_unit = 140;
 float q_steps_per_unit = 140;
 float b_steps_per_unit = 140;
@@ -93,6 +93,6 @@ const int Z_MAX_LENGTH = 120;
 #define Z_AXIS 2
 #define EXTRUDERS 2 //add this to see if the extruders wil be active on repetier
 
-#define BAUDRATE 9600
+#define BAUDRATE 115200
 
 #endif
